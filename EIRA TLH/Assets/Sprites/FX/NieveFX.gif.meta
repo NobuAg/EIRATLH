@@ -1,0 +1,6149 @@
+fileFormatVersion: 2
+guid: 66fe61c2dc59bb143b87c8a5af93dd69
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7970515642981334288
+    second: NieveFX_0
+  - first:
+      213: -8250187283279565566
+    second: NieveFX_1
+  - first:
+      213: -7102377516014639048
+    second: NieveFX_2
+  - first:
+      213: 712401876091649959
+    second: NieveFX_3
+  - first:
+      213: -6855953094461726090
+    second: NieveFX_4
+  - first:
+      213: -831901431015488372
+    second: NieveFX_5
+  - first:
+      213: 3512439784743004112
+    second: NieveFX_6
+  - first:
+      213: -9108160586242305028
+    second: NieveFX_7
+  - first:
+      213: 7907122397412043404
+    second: NieveFX_8
+  - first:
+      213: -406600274604694028
+    second: NieveFX_9
+  - first:
+      213: -8873569349700654257
+    second: NieveFX_10
+  - first:
+      213: -4947483951241162463
+    second: NieveFX_11
+  - first:
+      213: 3708451637246706082
+    second: NieveFX_12
+  - first:
+      213: 2316224911354648592
+    second: NieveFX_13
+  - first:
+      213: -9167644009010689684
+    second: NieveFX_14
+  - first:
+      213: 1097374594046846636
+    second: NieveFX_15
+  - first:
+      213: 2583528756865640429
+    second: NieveFX_16
+  - first:
+      213: 36240048952582257
+    second: NieveFX_17
+  - first:
+      213: -7471269952821766279
+    second: NieveFX_18
+  - first:
+      213: 5128012053704733279
+    second: NieveFX_19
+  - first:
+      213: -4553994079552823581
+    second: NieveFX_20
+  - first:
+      213: 219611035198902056
+    second: NieveFX_21
+  - first:
+      213: 9122903837665684990
+    second: NieveFX_22
+  - first:
+      213: 4267159013440940666
+    second: NieveFX_23
+  - first:
+      213: -3153445588016244022
+    second: NieveFX_24
+  - first:
+      213: -716225943092057419
+    second: NieveFX_25
+  - first:
+      213: 1628685302464753162
+    second: NieveFX_26
+  - first:
+      213: 3290411998249322332
+    second: NieveFX_27
+  - first:
+      213: 3574647178257829594
+    second: NieveFX_28
+  - first:
+      213: 3694031642498872634
+    second: NieveFX_29
+  - first:
+      213: -7147663274241798886
+    second: NieveFX_30
+  - first:
+      213: 6373783966278106584
+    second: NieveFX_31
+  - first:
+      213: -3186593919113729397
+    second: NieveFX_32
+  - first:
+      213: -7417816001618831176
+    second: NieveFX_33
+  - first:
+      213: 6141392795492164969
+    second: NieveFX_34
+  - first:
+      213: -516131103409102607
+    second: NieveFX_35
+  - first:
+      213: 8855546976306113516
+    second: NieveFX_36
+  - first:
+      213: 1759859673432685379
+    second: NieveFX_37
+  - first:
+      213: -3000869622703305671
+    second: NieveFX_38
+  - first:
+      213: 1481255662033748972
+    second: NieveFX_39
+  - first:
+      213: -3571325179180680279
+    second: NieveFX_40
+  - first:
+      213: -4965850847585895544
+    second: NieveFX_41
+  - first:
+      213: -3425035247066999443
+    second: NieveFX_42
+  - first:
+      213: 877465279254999463
+    second: NieveFX_43
+  - first:
+      213: -6961885434996338063
+    second: NieveFX_44
+  - first:
+      213: -455488298537602054
+    second: NieveFX_45
+  - first:
+      213: -7503180760786243227
+    second: NieveFX_46
+  - first:
+      213: -7395123344613937380
+    second: NieveFX_47
+  - first:
+      213: 1303219413624982859
+    second: NieveFX_48
+  - first:
+      213: 5523337631437099800
+    second: NieveFX_49
+  - first:
+      213: 6670450903979730338
+    second: NieveFX_50
+  - first:
+      213: -7721569261522515217
+    second: NieveFX_51
+  - first:
+      213: 1582601345281900813
+    second: NieveFX_52
+  - first:
+      213: -5277122637167459872
+    second: NieveFX_53
+  - first:
+      213: 5701006305242166970
+    second: NieveFX_54
+  - first:
+      213: 7254260105296680395
+    second: NieveFX_55
+  - first:
+      213: 6122128976267817317
+    second: NieveFX_56
+  - first:
+      213: -8471707078664741080
+    second: NieveFX_57
+  - first:
+      213: -8653109727205426264
+    second: NieveFX_58
+  - first:
+      213: 3000704893043920596
+    second: NieveFX_59
+  - first:
+      213: -4480484244635392335
+    second: NieveFX_60
+  - first:
+      213: 6198055786850990146
+    second: NieveFX_61
+  - first:
+      213: 5582044461166114138
+    second: NieveFX_62
+  - first:
+      213: 8051127954318110585
+    second: NieveFX_63
+  - first:
+      213: 8973342935563068659
+    second: NieveFX_64
+  - first:
+      213: 1023147843428350579
+    second: NieveFX_65
+  - first:
+      213: 8820878941060603095
+    second: NieveFX_66
+  - first:
+      213: -2698751170691209866
+    second: NieveFX_67
+  - first:
+      213: -2519579098726763452
+    second: NieveFX_68
+  - first:
+      213: 5631219436217904254
+    second: NieveFX_69
+  - first:
+      213: 2793398617735064047
+    second: NieveFX_70
+  - first:
+      213: -3226687370175280916
+    second: NieveFX_71
+  - first:
+      213: -4600585636296354641
+    second: NieveFX_72
+  - first:
+      213: 377229531399496126
+    second: NieveFX_73
+  - first:
+      213: 6218166940899210443
+    second: NieveFX_74
+  - first:
+      213: 6800419410878274877
+    second: NieveFX_75
+  - first:
+      213: -1662170006257695663
+    second: NieveFX_76
+  - first:
+      213: -8516615408646840410
+    second: NieveFX_77
+  - first:
+      213: -7487427108372529422
+    second: NieveFX_78
+  - first:
+      213: 8275902091868368997
+    second: NieveFX_79
+  - first:
+      213: 952895564389143660
+    second: NieveFX_80
+  - first:
+      213: -2906160860069188984
+    second: NieveFX_81
+  - first:
+      213: 2772925097652059686
+    second: NieveFX_82
+  - first:
+      213: 3213280014785961123
+    second: NieveFX_83
+  - first:
+      213: -4461091934939086513
+    second: NieveFX_84
+  - first:
+      213: 2093512264852901938
+    second: NieveFX_85
+  - first:
+      213: -8443968092812032619
+    second: NieveFX_86
+  - first:
+      213: -7864252478049482469
+    second: NieveFX_87
+  - first:
+      213: 9162014339429806872
+    second: NieveFX_88
+  - first:
+      213: 823545511683330323
+    second: NieveFX_89
+  - first:
+      213: 5995090704096699244
+    second: NieveFX_90
+  - first:
+      213: -3738450414274691696
+    second: NieveFX_91
+  - first:
+      213: 7630893434411916548
+    second: NieveFX_92
+  - first:
+      213: -92505681815574346
+    second: NieveFX_93
+  - first:
+      213: 710835097758162311
+    second: NieveFX_94
+  - first:
+      213: -5440203967796242658
+    second: NieveFX_95
+  - first:
+      213: -669836546060886786
+    second: NieveFX_96
+  - first:
+      213: 3173215885024650041
+    second: NieveFX_97
+  - first:
+      213: -4255037477343855042
+    second: NieveFX_98
+  - first:
+      213: 9222624269480770570
+    second: NieveFX_99
+  - first:
+      213: -3566606360701948483
+    second: NieveFX_100
+  - first:
+      213: -8610659357873712610
+    second: NieveFX_101
+  - first:
+      213: -4813395849819589904
+    second: NieveFX_102
+  - first:
+      213: -7479620260638738858
+    second: NieveFX_103
+  - first:
+      213: -3521901177648825360
+    second: NieveFX_104
+  - first:
+      213: -3655914181921046408
+    second: NieveFX_105
+  - first:
+      213: 4980909172376450012
+    second: NieveFX_106
+  - first:
+      213: 2543718165894707021
+    second: NieveFX_107
+  - first:
+      213: -7143837018686584485
+    second: NieveFX_108
+  - first:
+      213: 9056695197545782281
+    second: NieveFX_109
+  - first:
+      213: 8179975888843166101
+    second: NieveFX_110
+  - first:
+      213: 899236826336264084
+    second: NieveFX_111
+  - first:
+      213: -5613286428120991506
+    second: NieveFX_112
+  - first:
+      213: -5040616436326103918
+    second: NieveFX_113
+  - first:
+      213: 7269492641305109737
+    second: NieveFX_114
+  - first:
+      213: 1077994386600633267
+    second: NieveFX_115
+  - first:
+      213: -7904172968813854652
+    second: NieveFX_116
+  - first:
+      213: -7012504120122534388
+    second: NieveFX_117
+  - first:
+      213: -2872215837753452934
+    second: NieveFX_118
+  - first:
+      213: 5375226058356316884
+    second: NieveFX_119
+  - first:
+      213: 4377421401950627779
+    second: NieveFX_120
+  - first:
+      213: 6271223620906862348
+    second: NieveFX_121
+  - first:
+      213: -6721644089007390373
+    second: NieveFX_122
+  - first:
+      213: -4878365413582355765
+    second: NieveFX_123
+  - first:
+      213: -4671426499312352035
+    second: NieveFX_124
+  - first:
+      213: -4365743840705408391
+    second: NieveFX_125
+  - first:
+      213: 4800820423702049930
+    second: NieveFX_126
+  - first:
+      213: -5336393043546830929
+    second: NieveFX_127
+  - first:
+      213: -3802960914603944246
+    second: NieveFX_128
+  - first:
+      213: -4777255877631537378
+    second: NieveFX_129
+  - first:
+      213: 8923884223565406530
+    second: NieveFX_130
+  - first:
+      213: -8625203763626005977
+    second: NieveFX_131
+  - first:
+      213: -4785148739223183588
+    second: NieveFX_132
+  - first:
+      213: -2183257236522343848
+    second: NieveFX_133
+  - first:
+      213: -3363317656055078445
+    second: NieveFX_134
+  - first:
+      213: 6486568951918857496
+    second: NieveFX_135
+  - first:
+      213: 3601150659557010729
+    second: NieveFX_136
+  - first:
+      213: 8580779424319853340
+    second: NieveFX_137
+  - first:
+      213: -6022248702478195648
+    second: NieveFX_138
+  - first:
+      213: -5813343293419500765
+    second: NieveFX_139
+  - first:
+      213: 9125405940384968412
+    second: NieveFX_140
+  - first:
+      213: -2915476345915067153
+    second: NieveFX_141
+  - first:
+      213: 7684406828630920392
+    second: NieveFX_142
+  - first:
+      213: -6689463754286083096
+    second: NieveFX_143
+  - first:
+      213: -1436268389455137910
+    second: NieveFX_144
+  - first:
+      213: -4113674592318472531
+    second: NieveFX_145
+  - first:
+      213: -7439433673202661109
+    second: NieveFX_146
+  - first:
+      213: -2774309375643037987
+    second: NieveFX_147
+  - first:
+      213: -1199731772396693550
+    second: NieveFX_148
+  - first:
+      213: -5393439113884140305
+    second: NieveFX_149
+  - first:
+      213: -4165130057918773659
+    second: NieveFX_150
+  - first:
+      213: -623303090215488295
+    second: NieveFX_151
+  - first:
+      213: 2720933576389489093
+    second: NieveFX_152
+  - first:
+      213: 4445686691444833729
+    second: NieveFX_153
+  - first:
+      213: -6577190368374587361
+    second: NieveFX_154
+  - first:
+      213: -3129509581148051393
+    second: NieveFX_155
+  - first:
+      213: 3297911984856385105
+    second: NieveFX_156
+  - first:
+      213: 5518135007862157147
+    second: NieveFX_157
+  - first:
+      213: 1112357931094425739
+    second: NieveFX_158
+  - first:
+      213: -8275663473833454736
+    second: NieveFX_159
+  - first:
+      213: 4239041228812490869
+    second: NieveFX_160
+  - first:
+      213: 1457821220277682805
+    second: NieveFX_161
+  - first:
+      213: -5511510692819800031
+    second: NieveFX_162
+  - first:
+      213: 5286517978796295831
+    second: NieveFX_163
+  - first:
+      213: -8341927603778585505
+    second: NieveFX_164
+  - first:
+      213: -1295794431773208233
+    second: NieveFX_165
+  - first:
+      213: -1459131346293806214
+    second: NieveFX_166
+  - first:
+      213: 790360875797741116
+    second: NieveFX_167
+  - first:
+      213: -1059391390097129440
+    second: NieveFX_168
+  - first:
+      213: -2186106324505100351
+    second: NieveFX_169
+  - first:
+      213: -2609409305275440553
+    second: NieveFX_170
+  - first:
+      213: 8688247897280482303
+    second: NieveFX_171
+  - first:
+      213: 6996932424526662061
+    second: NieveFX_172
+  - first:
+      213: -6963719498821852310
+    second: NieveFX_173
+  - first:
+      213: -1090038491909428557
+    second: NieveFX_174
+  - first:
+      213: 542950870023458923
+    second: NieveFX_175
+  - first:
+      213: 2967397609067725250
+    second: NieveFX_176
+  - first:
+      213: -4791545399795104381
+    second: NieveFX_177
+  - first:
+      213: -4159387770138200465
+    second: NieveFX_178
+  - first:
+      213: -1533939619949341006
+    second: NieveFX_179
+  - first:
+      213: -5299632237824317320
+    second: NieveFX_180
+  - first:
+      213: 7471353536912334953
+    second: NieveFX_181
+  - first:
+      213: -6604341637919022730
+    second: NieveFX_182
+  - first:
+      213: -8252583431918509376
+    second: NieveFX_183
+  - first:
+      213: -3679628436972808386
+    second: NieveFX_184
+  - first:
+      213: 7121913918084908854
+    second: NieveFX_185
+  - first:
+      213: -1611665632604446190
+    second: NieveFX_186
+  - first:
+      213: -213203548351728745
+    second: NieveFX_187
+  - first:
+      213: 2474038810601039773
+    second: NieveFX_188
+  - first:
+      213: -8597354318701878675
+    second: NieveFX_189
+  - first:
+      213: -9015297640573566950
+    second: NieveFX_190
+  - first:
+      213: -4594899924670450687
+    second: NieveFX_191
+  - first:
+      213: 1079363396761627367
+    second: NieveFX_192
+  - first:
+      213: 8727780172034528379
+    second: NieveFX_193
+  - first:
+      213: -319774337896153664
+    second: NieveFX_194
+  - first:
+      213: 9071446675055129740
+    second: NieveFX_195
+  - first:
+      213: -8348393900940372237
+    second: NieveFX_196
+  - first:
+      213: 1208423009613334145
+    second: NieveFX_197
+  - first:
+      213: -2911365194038806412
+    second: NieveFX_198
+  - first:
+      213: 254188833156983664
+    second: NieveFX_199
+  - first:
+      213: 5163708297699236262
+    second: NieveFX_200
+  - first:
+      213: -2173846185142058309
+    second: NieveFX_201
+  - first:
+      213: -1265804543631261098
+    second: NieveFX_202
+  - first:
+      213: -8709159682445975024
+    second: NieveFX_203
+  - first:
+      213: 7667489310787502726
+    second: NieveFX_204
+  - first:
+      213: -7870750555542950374
+    second: NieveFX_205
+  - first:
+      213: 6638472953708691668
+    second: NieveFX_206
+  - first:
+      213: -7187833109360075325
+    second: NieveFX_207
+  - first:
+      213: -8923284543755096593
+    second: NieveFX_208
+  - first:
+      213: -6108441274104683972
+    second: NieveFX_209
+  - first:
+      213: 4401646993376893803
+    second: NieveFX_210
+  - first:
+      213: -188989176131599908
+    second: NieveFX_211
+  - first:
+      213: -785041744420157022
+    second: NieveFX_212
+  - first:
+      213: -2990844699057150646
+    second: NieveFX_213
+  - first:
+      213: -6129233661010128159
+    second: NieveFX_214
+  - first:
+      213: 8377517700790525324
+    second: NieveFX_215
+  - first:
+      213: 7138822839778110955
+    second: NieveFX_216
+  - first:
+      213: -2830638850370638056
+    second: NieveFX_217
+  - first:
+      213: 9043608700168687124
+    second: NieveFX_218
+  - first:
+      213: -831752995583218149
+    second: NieveFX_219
+  - first:
+      213: -9215428492154399656
+    second: NieveFX_220
+  - first:
+      213: 1297781050372315387
+    second: NieveFX_221
+  - first:
+      213: 12405721992011745
+    second: NieveFX_222
+  - first:
+      213: 672922680719611357
+    second: NieveFX_223
+  - first:
+      213: 5809698177214802924
+    second: NieveFX_224
+  - first:
+      213: 1894907503746751298
+    second: NieveFX_225
+  - first:
+      213: 1955561620911039717
+    second: NieveFX_226
+  - first:
+      213: -5582954511153909848
+    second: NieveFX_227
+  - first:
+      213: 2018382485071893133
+    second: NieveFX_228
+  - first:
+      213: -5195224026558028904
+    second: NieveFX_229
+  - first:
+      213: -4183243231478556062
+    second: NieveFX_230
+  - first:
+      213: -4522587793123360501
+    second: NieveFX_231
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NieveFX_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 694
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01db8986fb5fc9e60800000000000000
+      internalID: 7970515642981334288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 689
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d2da19062718d80800000000000000
+      internalID: -8250187283279565566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 694
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838e93977494f6d90800000000000000
+      internalID: -7102377516014639048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 694
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afb3c95bb5f2e900800000000000000
+      internalID: 712401876091649959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_4
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 699
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6726ed72cf2cad0a0800000000000000
+      internalID: -6855953094461726090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 684
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84ce2c5e0e7474f0800000000000000
+      internalID: -831901431015488372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 689
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d76e80ef51beb030800000000000000
+      internalID: 3512439784743004112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_7
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 679
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf350d33430599180800000000000000
+      internalID: -9108160586242305028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 689
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8aa74d3dedbbbd60800000000000000
+      internalID: 7907122397412043404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_9
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 689
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f56c9a54377b5af0800000000000000
+      internalID: -406600274604694028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_10
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 684
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b6c4dc0bfbad480800000000000000
+      internalID: -8873569349700654257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_11
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 674
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121135a2f81075bb0800000000000000
+      internalID: -4947483951241162463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_12
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 674
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a14ec8ad11177330800000000000000
+      internalID: 3708451637246706082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_13
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 674
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0185435f842e42020800000000000000
+      internalID: 2316224911354648592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 654
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c690ea7985cf5c080800000000000000
+      internalID: -9167644009010689684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_15
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 654
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca663bf0168aa3f00800000000000000
+      internalID: 1097374594046846636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_16
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 664
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7abfb57b98ad320800000000000000
+      internalID: 2583528756865640429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_17
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 664
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170267ce120c08000800000000000000
+      internalID: 36240048952582257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_18
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 649
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9775209ff87b05890800000000000000
+      internalID: -7471269952821766279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_19
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 644
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52fdf02bcb5a2740800000000000000
+      internalID: 5128012053704733279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_20
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 649
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee95034386fcc0c0800000000000000
+      internalID: -4553994079552823581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_21
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 629
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f49cda2173c0300800000000000000
+      internalID: 219611035198902056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_22
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 639
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd6c1484b01b9e70800000000000000
+      internalID: 9122903837665684990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_23
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 639
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ae04ca38ef73b30800000000000000
+      internalID: 4267159013440940666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_24
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 639
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acad4c302f5bc34d0800000000000000
+      internalID: -3153445588016244022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 624
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba241bac447f06f0800000000000000
+      internalID: -716225943092057419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_26
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 629
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0eaf4847a04a9610800000000000000
+      internalID: 1628685302464753162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_27
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 629
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5785507744e9ad20800000000000000
+      internalID: 3290411998249322332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_28
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 624
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade09695ba2bb9130800000000000000
+      internalID: 3574647178257829594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_29
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 609
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35b2300536d34330800000000000000
+      internalID: 3694031642498872634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_30
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 619
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d46bc3f166ecc90800000000000000
+      internalID: -7147663274241798886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_31
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 609
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd36116fba347850800000000000000
+      internalID: 6373783966278106584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_32
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 619
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a6ecfb6b1f6c3d0800000000000000
+      internalID: -3186593919113729397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_33
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 609
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b81d46d5af9e0990800000000000000
+      internalID: -7417816001618831176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_34
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 619
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9652471853c9a3550800000000000000
+      internalID: 6141392795492164969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 599
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f025cbfe7556d8f0800000000000000
+      internalID: -516131103409102607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_36
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 604
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceba2866e0935ea70800000000000000
+      internalID: 8855546976306113516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_37
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 594
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b7d718c074c6810800000000000000
+      internalID: 1759859673432685379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_38
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 604
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c42893af4ca56d0800000000000000
+      internalID: -3000869622703305671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_39
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 604
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3ce053d2a7e8410800000000000000
+      internalID: 1481255662033748972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_40
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 599
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abf685dbaa107ec0800000000000000
+      internalID: -3571325179180680279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_41
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 589
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88bf11ed6f0c51bb0800000000000000
+      internalID: -4965850847585895544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_42
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 589
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d651163e694d770d0800000000000000
+      internalID: -3425035247066999443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_43
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 594
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1bbb0c5026d2c00800000000000000
+      internalID: 877465279254999463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_44
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 584
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172d310251a626f90800000000000000
+      internalID: -6961885434996338063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_45
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 574
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3b1564ec7cda9f0800000000000000
+      internalID: -455488298537602054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_46
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 579
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5617ac30ad85fd790800000000000000
+      internalID: -7503180760786243227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_47
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 579
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f6616cf7e3f5990800000000000000
+      internalID: -7395123344613937380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_48
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 559
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d8285e627f51210800000000000000
+      internalID: 1303219413624982859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_49
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 559
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8131b58df46d6ac40800000000000000
+      internalID: 5523337631437099800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_50
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 569
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5256f61c3329c50800000000000000
+      internalID: 6670450903979730338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_51
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 569
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea0062daa977d490800000000000000
+      internalID: -7721569261522515217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_52
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 549
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01459ed98786f510800000000000000
+      internalID: 1582601345281900813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_53
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 544
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1067fbbe4e3c6b0800000000000000
+      internalID: -5277122637167459872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_54
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 544
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6b836870b0e1f40800000000000000
+      internalID: 5701006305242166970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_55
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 544
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc51f7c812f4ca460800000000000000
+      internalID: 7254260105296680395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_56
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 544
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561b1931edb26f450800000000000000
+      internalID: 6122128976267817317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_57
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 539
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f96070c437e6a80800000000000000
+      internalID: -8471707078664741080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_58
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 534
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab717b9c8af9e780800000000000000
+      internalID: -8653109727205426264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_59
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 539
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dec8a9a335a4a920800000000000000
+      internalID: 3000704893043920596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_60
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 534
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6e5c0715f12d1c0800000000000000
+      internalID: -4480484244635392335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_61
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 529
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248be4146eae30650800000000000000
+      internalID: 6198055786850990146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_62
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 529
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a553e3cccd7677d40800000000000000
+      internalID: 5582044461166114138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_63
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 524
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f295eb73a5bbf60800000000000000
+      internalID: 8051127954318110585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_64
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 529
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f46ff96bd7b78c70800000000000000
+      internalID: 8973342935563068659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_65
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 514
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37af040fa83f23e00800000000000000
+      internalID: 1023147843428350579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_66
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 509
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc14a079ae0a6a70800000000000000
+      internalID: 8820878941060603095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_67
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 509
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675e7cddb1c1c8ad0800000000000000
+      internalID: -2698751170691209866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_68
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 514
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44474e4b828a80dd0800000000000000
+      internalID: -2519579098726763452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_69
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 504
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c2b04ed3c162e40800000000000000
+      internalID: 5631219436217904254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_70
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 514
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe96a262e3524c620800000000000000
+      internalID: 2793398617735064047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_71
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 514
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8867bbee08833d0800000000000000
+      internalID: -3226687370175280916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_72
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 504
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa49acd1dbf6720c0800000000000000
+      internalID: -4600585636296354641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_73
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 499
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1aad992403c3500800000000000000
+      internalID: 377229531399496126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_74
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 494
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4ff5233ed5b4650800000000000000
+      internalID: 6218166940899210443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_75
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 484
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d121d8c61ff5e50800000000000000
+      internalID: 6800419410878274877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_76
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 484
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15483b49f29cee8e0800000000000000
+      internalID: -1662170006257695663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_77
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 489
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af9cf6a867eec980800000000000000
+      internalID: -8516615408646840410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 484
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe33db07b0571890800000000000000
+      internalID: -7487427108372529422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_79
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 489
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560f9bdda19e9d270800000000000000
+      internalID: 8275902091868368997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_80
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 484
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64d577977d593d00800000000000000
+      internalID: 952895564389143660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_81
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 489
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88aae63681e3ba7d0800000000000000
+      internalID: -2906160860069188984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_82
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 489
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ef05a4fa86b7620800000000000000
+      internalID: 2772925097652059686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_83
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 469
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acdd25162dd79c20800000000000000
+      internalID: 3213280014785961123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_84
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 479
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41889365840712c0800000000000000
+      internalID: -4461091934939086513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_85
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 469
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2301b7f1056ad0d10800000000000000
+      internalID: 2093512264852901938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_86
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 464
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595c435f1cff0da80800000000000000
+      internalID: -8443968092812032619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_87
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 459
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1900eda9009cd290800000000000000
+      internalID: -7864252478049482469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_88
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 459
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813bfb0df73062f70800000000000000
+      internalID: 9162014339429806872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_89
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 459
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31190409742dd6b00800000000000000
+      internalID: 823545511683330323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_90
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 464
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c632ee56b37d23350800000000000000
+      internalID: 5995090704096699244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_91
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 439
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dbeb6c72b5e1cc0800000000000000
+      internalID: -3738450414274691696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_92
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 449
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d9bfcf52166e960800000000000000
+      internalID: 7630893434411916548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_93
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 449
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b86daf829a57bef0800000000000000
+      internalID: -92505681815574346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_94
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 439
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d51c751c46dd900800000000000000
+      internalID: 710835097758162311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_95
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 434
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1795d190538084b0800000000000000
+      internalID: -5440203967796242658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_96
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 429
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc5776d53344b6f0800000000000000
+      internalID: -669836546060886786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_97
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 419
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9336586f807890c20800000000000000
+      internalID: 3173215885024650041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_98
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 419
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ef1f065f113f4c0800000000000000
+      internalID: -4255037477343855042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_99
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 429
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c3c47d8e75dff70800000000000000
+      internalID: 9222624269480770570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_100
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 429
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd26b0696ed08ec0800000000000000
+      internalID: -3566606360701948483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_101
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 414
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e125b0c6feac08880800000000000000
+      internalID: -8610659357873712610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_102
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 414
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2f9202af1633db0800000000000000
+      internalID: -4813395849819589904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_103
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 409
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65630dd600d033890800000000000000
+      internalID: -7479620260638738858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_104
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 399
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb363ce981bf1fc0800000000000000
+      internalID: -3521901177648825360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_105
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 414
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8708841eb65934dc0800000000000000
+      internalID: -3655914181921046408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_106
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 409
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3bbf5908ebf1540800000000000000
+      internalID: 4980909172376450012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_107
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 399
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47bcd6d13a1d4320800000000000000
+      internalID: 2543718165894707021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_108
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 394
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5986e7c41efbdc90800000000000000
+      internalID: -7143837018686584485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_109
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 404
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cd3b83c48dfad70800000000000000
+      internalID: 9056695197545782281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_110
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 384
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591d1c54bbc158170800000000000000
+      internalID: 8179975888843166101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_111
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 389
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ff8b2112bba7c00800000000000000
+      internalID: 899236826336264084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_112
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 389
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8b35debb99912b0800000000000000
+      internalID: -5613286428120991506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_113
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 389
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29489c7be022c0ab0800000000000000
+      internalID: -5040616436326103918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_114
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 374
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4ae46ba0d62e460800000000000000
+      internalID: 7269492641305109737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_115
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 384
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b32233ee2ec5fe00800000000000000
+      internalID: 1077994386600633267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_116
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 389
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4400b9e109cbe4290800000000000000
+      internalID: -7904172968813854652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_117
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 369
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06122618a49eae90800000000000000
+      internalID: -7012504120122534388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_118
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 364
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a765478c9e6d328d0800000000000000
+      internalID: -2872215837753452934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_119
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 369
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da50c3fe93a89a40800000000000000
+      internalID: 5375226058356316884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_120
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 344
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7a57f8299bfbc30800000000000000
+      internalID: 4377421401950627779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_121
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 349
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07413728acd70750800000000000000
+      internalID: 6271223620906862348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_122
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 349
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b514c18505ce7b2a0800000000000000
+      internalID: -6721644089007390373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_123
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 344
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc24fd6c0809c4cb0800000000000000
+      internalID: -4878365413582355765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_124
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 344
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd404226952cb2fb0800000000000000
+      internalID: -4671426499312352035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_125
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 329
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972976a8b13c963c0800000000000000
+      internalID: -4365743840705408391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_126
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 339
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8473315db0ff9240800000000000000
+      internalID: 4800820423702049930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_127
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 324
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa78681ecc251f5b0800000000000000
+      internalID: -5336393043546830929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_128
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 329
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac65656723b293bc0800000000000000
+      internalID: -3802960914603944246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_129
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 329
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f00ac1717c3bdb0800000000000000
+      internalID: -4777255877631537378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_130
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 309
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241245aab6108db70800000000000000
+      internalID: 8923884223565406530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_131
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 314
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72aa5b110ee1d4880800000000000000
+      internalID: -8625203763626005977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_132
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 314
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f9131139cb79db0800000000000000
+      internalID: -4785148739223183588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_133
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 319
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852e8cb5c1383b1e0800000000000000
+      internalID: -2183257236522343848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_134
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 314
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1a90459681351d0800000000000000
+      internalID: -3363317656055078445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_135
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 309
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d833e281ce40a50800000000000000
+      internalID: 6486568951918857496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_136
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 319
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d2f85f17bd9f130800000000000000
+      internalID: 3601150659557010729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_137
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 304
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13d09a6c6d051770800000000000000
+      internalID: 8580779424319853340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_138
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 309
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044eabb56bcac6ca0800000000000000
+      internalID: -6022248702478195648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_139
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 304
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bc456331bd25fa0800000000000000
+      internalID: -5813343293419500765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_140
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 299
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdea2e3ba54f3ae70800000000000000
+      internalID: 9125405940384968412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_141
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 294
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4bda2d5b52a87d0800000000000000
+      internalID: -2915476345915067153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_142
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 294
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccc1220c4f74aa60800000000000000
+      internalID: 7684406828630920392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_143
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 279
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e35de368204a23a0800000000000000
+      internalID: -6689463754286083096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_144
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 279
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83776c6289511ce0800000000000000
+      internalID: -1436268389455137910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_145
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 279
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daebe43e0ca49e6c0800000000000000
+      internalID: -4113674592318472531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_146
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 289
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b090da27d72d1c890800000000000000
+      internalID: -7439433673202661109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_147
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 289
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddec2cf525caf79d0800000000000000
+      internalID: -2774309375643037987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_148
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 264
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d79b883f42b95fe0800000000000000
+      internalID: -1199731772396693550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_149
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 254
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fecfc3b93b7a625b0800000000000000
+      internalID: -5393439113884140305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_150
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 264
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5660376b74c7236c0800000000000000
+      internalID: -4165130057918773659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_151
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 244
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d47d4054259957f0800000000000000
+      internalID: -623303090215488295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_152
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 249
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1f02eeba2b2c520800000000000000
+      internalID: 2720933576389489093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_153
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 249
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd304add7042bd30800000000000000
+      internalID: 4445686691444833729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_154
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 254
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1089e8153029b4a0800000000000000
+      internalID: -6577190368374587361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_155
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 249
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f382d76ed9fb194d0800000000000000
+      internalID: -3129509581148051393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_156
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 234
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1564ed52a7984cd20800000000000000
+      internalID: 3297911984856385105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_157
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 234
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f6546ad8a549c40800000000000000
+      internalID: 5518135007862157147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_158
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 234
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80c8f115a3ef6f00800000000000000
+      internalID: 1112357931094425739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_159
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 244
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0735b79baefe62d80800000000000000
+      internalID: -8275663473833454736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_160
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 229
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5789a97c98914da30800000000000000
+      internalID: 4239041228812490869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_161
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 224
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5728dac0da83b3410800000000000000
+      internalID: 1457821220277682805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_162
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 219
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12075b2e93e2383b0800000000000000
+      internalID: -5511510692819800031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_163
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 219
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7968ed0b71c7d5940800000000000000
+      internalID: 5286517978796295831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_164
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 214
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c70c2ba058b3c80800000000000000
+      internalID: -8341927603778585505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_165
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 214
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7519a3864d9640ee0800000000000000
+      internalID: -1295794431773208233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_166
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 204
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b258775cf10cbe0800000000000000
+      internalID: -1459131346293806214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_167
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 204
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e7a4e670de7fa00800000000000000
+      internalID: 790360875797741116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_168
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0204723c4294c41f0800000000000000
+      internalID: -1059391390097129440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_169
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf73ae51e369a1e0800000000000000
+      internalID: -2186106324505100351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_170
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 189
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7526575ef0489cbd0800000000000000
+      internalID: -2609409305275440553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_171
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 189
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb00f52e6bd29870800000000000000
+      internalID: 8688247897280482303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_172
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 199
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9035108f81a1160800000000000000
+      internalID: 6996932424526662061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_173
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 199
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63234dd206eb5f90800000000000000
+      internalID: -6963719498821852310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_174
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba6c3254c76fd0f0800000000000000
+      internalID: -1090038491909428557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_175
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60dc3a80f2f88700800000000000000
+      internalID: 542950870023458923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_176
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 179
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c143db47605e2920800000000000000
+      internalID: 2967397609067725250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_177
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 174
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3854e0878d2018db0800000000000000
+      internalID: -4791545399795104381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_178
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 164
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66fec54cd2e646c0800000000000000
+      internalID: -4159387770138200465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_179
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 159
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b69506fa0a56bae0800000000000000
+      internalID: -1533939619949341006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_180
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 164
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878e540fe8ce376b0800000000000000
+      internalID: -5299632237824317320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_181
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 159
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960a407f4749fa760800000000000000
+      internalID: 7471353536912334953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_182
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 154
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671e388854aa854a0800000000000000
+      internalID: -6604341637919022730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_183
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 149
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2293db71fe87d80800000000000000
+      internalID: -8252583431918509376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_184
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 154
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e375fcc9e655fecc0800000000000000
+      internalID: -3679628436972808386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_185
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 154
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6378c5899fe16d260800000000000000
+      internalID: 7121913918084908854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_186
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 139
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21228e765a632a9e0800000000000000
+      internalID: -1611665632604446190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_187
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 129
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79374ab908c8a0df0800000000000000
+      internalID: -213203548351728745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_188
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 129
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97a762b03d855220800000000000000
+      internalID: 2474038810601039773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_189
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 139
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62aa914ccf00b880800000000000000
+      internalID: -8597354318701878675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_190
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10023d9f8a33e280800000000000000
+      internalID: -9015297640573566950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_191
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 129
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1047c830dd2ab30c0800000000000000
+      internalID: -4594899924670450687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_192
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea29876a4baafe00800000000000000
+      internalID: 1079363396761627367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_193
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 124
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74d0df13dd4f1970800000000000000
+      internalID: 8727780172034528379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_194
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 119
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdf9651feeef8bf0800000000000000
+      internalID: -319774337896153664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_195
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c843f8930b044ed70800000000000000
+      internalID: 9071446675055129740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_196
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f659619afb842c80800000000000000
+      internalID: -8348393900940372237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_197
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 114
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1864962235e25c010800000000000000
+      internalID: 1208423009613334145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_198
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 119
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47871e5f7c0c897d0800000000000000
+      internalID: -2911365194038806412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_199
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b6132a56f078300800000000000000
+      internalID: 254188833156983664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_200
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 109
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a99918965d29a740800000000000000
+      internalID: 5163708297699236262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_201
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb205428962f4d1e0800000000000000
+      internalID: -2173846185142058309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_202
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 109
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65288cd5975fe6ee0800000000000000
+      internalID: -1265804543631261098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_203
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 109
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01267a37969d22780800000000000000
+      internalID: -8709159682445975024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_204
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682089077e4686a60800000000000000
+      internalID: 7667489310787502726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_205
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 89
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e672d121a75c290800000000000000
+      internalID: -7870750555542950374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_206
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 89
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d048d0baf7902c50800000000000000
+      internalID: 6638472953708691668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_207
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 84
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd1dcbaedfaf3c90800000000000000
+      internalID: -7187833109360075325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_208
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 84
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed6ebb2cff1a2480800000000000000
+      internalID: -8923284543755096593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_209
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32e7ad66057a3ba0800000000000000
+      internalID: -6108441274104683972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_210
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b55ea9e9ac51d30800000000000000
+      internalID: 4401646993376893803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_211
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1484a7853906df0800000000000000
+      internalID: -188989176131599908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_212
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9cbf951b8fa15f0800000000000000
+      internalID: -785041744420157022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_213
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 69
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45a656a7926e76d0800000000000000
+      internalID: -2990844699057150646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_214
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 64
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2df1a957690faa0800000000000000
+      internalID: -6129233661010128159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_215
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 59
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d9a2f76fbe24470800000000000000
+      internalID: 8377517700790525324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_216
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed6b67bc81321360800000000000000
+      internalID: 7138822839778110955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_217
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 44
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fec3486fc87b8d0800000000000000
+      internalID: -2830638850370638056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_218
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ecf2d923a518d70800000000000000
+      internalID: 9043608700168687124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_219
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e256dae050574f0800000000000000
+      internalID: -831752995583218149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_220
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 44
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8549f10ac983c1080800000000000000
+      internalID: -9215428492154399656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_221
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 44
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8dca74df4a20210800000000000000
+      internalID: 1297781050372315387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_222
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef148c30f21c2000800000000000000
+      internalID: 12405721992011745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_223
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 29
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd59891ec93b65900800000000000000
+      internalID: 672922680719611357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_224
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb6f1906b130a050800000000000000
+      internalID: 5809698177214802924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_225
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 29
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b1c03c5501c4a10800000000000000
+      internalID: 1894907503746751298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_226
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e42ac6eeec832b10800000000000000
+      internalID: 1955561620911039717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_227
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afa18da37c5582b0800000000000000
+      internalID: -5582954511153909848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_228
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 14
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8294932d2cb20c10800000000000000
+      internalID: 2018382485071893133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_229
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8932f68f54bd6e7b0800000000000000
+      internalID: -5195224026558028904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_230
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ad9aad17222f5c0800000000000000
+      internalID: -4183243231478556062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NieveFX_231
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 9
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b014d552d5a8c31c0800000000000000
+      internalID: -4522587793123360501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NieveFX_0: 7970515642981334288
+      NieveFX_1: -8250187283279565566
+      NieveFX_10: -8873569349700654257
+      NieveFX_100: -3566606360701948483
+      NieveFX_101: -8610659357873712610
+      NieveFX_102: -4813395849819589904
+      NieveFX_103: -7479620260638738858
+      NieveFX_104: -3521901177648825360
+      NieveFX_105: -3655914181921046408
+      NieveFX_106: 4980909172376450012
+      NieveFX_107: 2543718165894707021
+      NieveFX_108: -7143837018686584485
+      NieveFX_109: 9056695197545782281
+      NieveFX_11: -4947483951241162463
+      NieveFX_110: 8179975888843166101
+      NieveFX_111: 899236826336264084
+      NieveFX_112: -5613286428120991506
+      NieveFX_113: -5040616436326103918
+      NieveFX_114: 7269492641305109737
+      NieveFX_115: 1077994386600633267
+      NieveFX_116: -7904172968813854652
+      NieveFX_117: -7012504120122534388
+      NieveFX_118: -2872215837753452934
+      NieveFX_119: 5375226058356316884
+      NieveFX_12: 3708451637246706082
+      NieveFX_120: 4377421401950627779
+      NieveFX_121: 6271223620906862348
+      NieveFX_122: -6721644089007390373
+      NieveFX_123: -4878365413582355765
+      NieveFX_124: -4671426499312352035
+      NieveFX_125: -4365743840705408391
+      NieveFX_126: 4800820423702049930
+      NieveFX_127: -5336393043546830929
+      NieveFX_128: -3802960914603944246
+      NieveFX_129: -4777255877631537378
+      NieveFX_13: 2316224911354648592
+      NieveFX_130: 8923884223565406530
+      NieveFX_131: -8625203763626005977
+      NieveFX_132: -4785148739223183588
+      NieveFX_133: -2183257236522343848
+      NieveFX_134: -3363317656055078445
+      NieveFX_135: 6486568951918857496
+      NieveFX_136: 3601150659557010729
+      NieveFX_137: 8580779424319853340
+      NieveFX_138: -6022248702478195648
+      NieveFX_139: -5813343293419500765
+      NieveFX_14: -9167644009010689684
+      NieveFX_140: 9125405940384968412
+      NieveFX_141: -2915476345915067153
+      NieveFX_142: 7684406828630920392
+      NieveFX_143: -6689463754286083096
+      NieveFX_144: -1436268389455137910
+      NieveFX_145: -4113674592318472531
+      NieveFX_146: -7439433673202661109
+      NieveFX_147: -2774309375643037987
+      NieveFX_148: -1199731772396693550
+      NieveFX_149: -5393439113884140305
+      NieveFX_15: 1097374594046846636
+      NieveFX_150: -4165130057918773659
+      NieveFX_151: -623303090215488295
+      NieveFX_152: 2720933576389489093
+      NieveFX_153: 4445686691444833729
+      NieveFX_154: -6577190368374587361
+      NieveFX_155: -3129509581148051393
+      NieveFX_156: 3297911984856385105
+      NieveFX_157: 5518135007862157147
+      NieveFX_158: 1112357931094425739
+      NieveFX_159: -8275663473833454736
+      NieveFX_16: 2583528756865640429
+      NieveFX_160: 4239041228812490869
+      NieveFX_161: 1457821220277682805
+      NieveFX_162: -5511510692819800031
+      NieveFX_163: 5286517978796295831
+      NieveFX_164: -8341927603778585505
+      NieveFX_165: -1295794431773208233
+      NieveFX_166: -1459131346293806214
+      NieveFX_167: 790360875797741116
+      NieveFX_168: -1059391390097129440
+      NieveFX_169: -2186106324505100351
+      NieveFX_17: 36240048952582257
+      NieveFX_170: -2609409305275440553
+      NieveFX_171: 8688247897280482303
+      NieveFX_172: 6996932424526662061
+      NieveFX_173: -6963719498821852310
+      NieveFX_174: -1090038491909428557
+      NieveFX_175: 542950870023458923
+      NieveFX_176: 2967397609067725250
+      NieveFX_177: -4791545399795104381
+      NieveFX_178: -4159387770138200465
+      NieveFX_179: -1533939619949341006
+      NieveFX_18: -7471269952821766279
+      NieveFX_180: -5299632237824317320
+      NieveFX_181: 7471353536912334953
+      NieveFX_182: -6604341637919022730
+      NieveFX_183: -8252583431918509376
+      NieveFX_184: -3679628436972808386
+      NieveFX_185: 7121913918084908854
+      NieveFX_186: -1611665632604446190
+      NieveFX_187: -213203548351728745
+      NieveFX_188: 2474038810601039773
+      NieveFX_189: -8597354318701878675
+      NieveFX_19: 5128012053704733279
+      NieveFX_190: -9015297640573566950
+      NieveFX_191: -4594899924670450687
+      NieveFX_192: 1079363396761627367
+      NieveFX_193: 8727780172034528379
+      NieveFX_194: -319774337896153664
+      NieveFX_195: 9071446675055129740
+      NieveFX_196: -8348393900940372237
+      NieveFX_197: 1208423009613334145
+      NieveFX_198: -2911365194038806412
+      NieveFX_199: 254188833156983664
+      NieveFX_2: -7102377516014639048
+      NieveFX_20: -4553994079552823581
+      NieveFX_200: 5163708297699236262
+      NieveFX_201: -2173846185142058309
+      NieveFX_202: -1265804543631261098
+      NieveFX_203: -8709159682445975024
+      NieveFX_204: 7667489310787502726
+      NieveFX_205: -7870750555542950374
+      NieveFX_206: 6638472953708691668
+      NieveFX_207: -7187833109360075325
+      NieveFX_208: -8923284543755096593
+      NieveFX_209: -6108441274104683972
+      NieveFX_21: 219611035198902056
+      NieveFX_210: 4401646993376893803
+      NieveFX_211: -188989176131599908
+      NieveFX_212: -785041744420157022
+      NieveFX_213: -2990844699057150646
+      NieveFX_214: -6129233661010128159
+      NieveFX_215: 8377517700790525324
+      NieveFX_216: 7138822839778110955
+      NieveFX_217: -2830638850370638056
+      NieveFX_218: 9043608700168687124
+      NieveFX_219: -831752995583218149
+      NieveFX_22: 9122903837665684990
+      NieveFX_220: -9215428492154399656
+      NieveFX_221: 1297781050372315387
+      NieveFX_222: 12405721992011745
+      NieveFX_223: 672922680719611357
+      NieveFX_224: 5809698177214802924
+      NieveFX_225: 1894907503746751298
+      NieveFX_226: 1955561620911039717
+      NieveFX_227: -5582954511153909848
+      NieveFX_228: 2018382485071893133
+      NieveFX_229: -5195224026558028904
+      NieveFX_23: 4267159013440940666
+      NieveFX_230: -4183243231478556062
+      NieveFX_231: -4522587793123360501
+      NieveFX_24: -3153445588016244022
+      NieveFX_25: -716225943092057419
+      NieveFX_26: 1628685302464753162
+      NieveFX_27: 3290411998249322332
+      NieveFX_28: 3574647178257829594
+      NieveFX_29: 3694031642498872634
+      NieveFX_3: 712401876091649959
+      NieveFX_30: -7147663274241798886
+      NieveFX_31: 6373783966278106584
+      NieveFX_32: -3186593919113729397
+      NieveFX_33: -7417816001618831176
+      NieveFX_34: 6141392795492164969
+      NieveFX_35: -516131103409102607
+      NieveFX_36: 8855546976306113516
+      NieveFX_37: 1759859673432685379
+      NieveFX_38: -3000869622703305671
+      NieveFX_39: 1481255662033748972
+      NieveFX_4: -6855953094461726090
+      NieveFX_40: -3571325179180680279
+      NieveFX_41: -4965850847585895544
+      NieveFX_42: -3425035247066999443
+      NieveFX_43: 877465279254999463
+      NieveFX_44: -6961885434996338063
+      NieveFX_45: -455488298537602054
+      NieveFX_46: -7503180760786243227
+      NieveFX_47: -7395123344613937380
+      NieveFX_48: 1303219413624982859
+      NieveFX_49: 5523337631437099800
+      NieveFX_5: -831901431015488372
+      NieveFX_50: 6670450903979730338
+      NieveFX_51: -7721569261522515217
+      NieveFX_52: 1582601345281900813
+      NieveFX_53: -5277122637167459872
+      NieveFX_54: 5701006305242166970
+      NieveFX_55: 7254260105296680395
+      NieveFX_56: 6122128976267817317
+      NieveFX_57: -8471707078664741080
+      NieveFX_58: -8653109727205426264
+      NieveFX_59: 3000704893043920596
+      NieveFX_6: 3512439784743004112
+      NieveFX_60: -4480484244635392335
+      NieveFX_61: 6198055786850990146
+      NieveFX_62: 5582044461166114138
+      NieveFX_63: 8051127954318110585
+      NieveFX_64: 8973342935563068659
+      NieveFX_65: 1023147843428350579
+      NieveFX_66: 8820878941060603095
+      NieveFX_67: -2698751170691209866
+      NieveFX_68: -2519579098726763452
+      NieveFX_69: 5631219436217904254
+      NieveFX_7: -9108160586242305028
+      NieveFX_70: 2793398617735064047
+      NieveFX_71: -3226687370175280916
+      NieveFX_72: -4600585636296354641
+      NieveFX_73: 377229531399496126
+      NieveFX_74: 6218166940899210443
+      NieveFX_75: 6800419410878274877
+      NieveFX_76: -1662170006257695663
+      NieveFX_77: -8516615408646840410
+      NieveFX_78: -7487427108372529422
+      NieveFX_79: 8275902091868368997
+      NieveFX_8: 7907122397412043404
+      NieveFX_80: 952895564389143660
+      NieveFX_81: -2906160860069188984
+      NieveFX_82: 2772925097652059686
+      NieveFX_83: 3213280014785961123
+      NieveFX_84: -4461091934939086513
+      NieveFX_85: 2093512264852901938
+      NieveFX_86: -8443968092812032619
+      NieveFX_87: -7864252478049482469
+      NieveFX_88: 9162014339429806872
+      NieveFX_89: 823545511683330323
+      NieveFX_9: -406600274604694028
+      NieveFX_90: 5995090704096699244
+      NieveFX_91: -3738450414274691696
+      NieveFX_92: 7630893434411916548
+      NieveFX_93: -92505681815574346
+      NieveFX_94: 710835097758162311
+      NieveFX_95: -5440203967796242658
+      NieveFX_96: -669836546060886786
+      NieveFX_97: 3173215885024650041
+      NieveFX_98: -4255037477343855042
+      NieveFX_99: 9222624269480770570
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
