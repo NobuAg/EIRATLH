@@ -8,29 +8,32 @@ public class Pause : MonoBehaviour
     public GameObject menuPausaUI;
     public GameObject primerBoton;
     private bool estaPausado = false;
-    public CanvasGroup canvasGroupPausa; // Arrastra el CanvasGroup del panel aquí
-    public float velocidadAnimacion = 0.15f; // Tiempo que tarda en abrirse
+    public CanvasGroup canvasGroupPausa;
+    public float velocidadAnimacion = 0.15f; // Tiempo que tarda en abrir animación
 
     // Esta variable global avisa al personaje si debe ignorar la tecla X en este frame
     public static bool BloquearInputFrame = false;
 
     void Update()
     {
-        // 1. Abrir o cerrar el menú solo con la tecla P
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            if (estaPausado)
+            if (GameOver.JuegoTerminado)
+                return;
+
+            // 1. Abrir o cerrar el menú solo con la tecla P
+            if (Input.GetKeyDown(KeyCode.P))
             {
+                if (estaPausado)
+                {
                 ReanudarMenu();
-            }
-            else
-            {
+                }
+                else
+                {
                 PausarMenu();
+                }
             }
-        }
 
         // 2. Si está pausado y presionas X, ejecuta la opción seleccionada
-        if (estaPausado && Input.GetKeyDown(KeyCode.X))
+        if (estaPausado && Input.GetKeyDown(KeyCode.Z))
         {
             ActivarBotonSeleccionado();
         }
@@ -120,7 +123,7 @@ public class Pause : MonoBehaviour
             yield return null; // Espera al siguiente frame
         }
 
-        // Asegura que al terminar quede 100% visible
+        // Asegura que se vea al terminar
         canvasGroupPausa.alpha = 1f;
     }
 

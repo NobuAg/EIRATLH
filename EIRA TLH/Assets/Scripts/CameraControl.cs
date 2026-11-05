@@ -6,24 +6,32 @@ public class CameraControl : MonoBehaviour
 {
     public Transform objetivo;
 
-    [Tooltip("Sube este valor en el Inspector (ej. entre 5 y 15) para que siga más rápido al jugador.")]
-    public float CameraSpeed = 10f;
+    [Tooltip("Tiempo aproximado en segundos que tarda la cámara en alcanzar al jugador. Valores más bajos = seguimiento más rápido (ej: 0.1f o 0.15f).")]
+    public float SmoothTime = 0.1f;
+
     public Vector3 Desplazamiento;
 
-    // Regresamos a LateUpdate para que la cámara renderice justo después 
-    // de que la interpolación del Rigidbody2D mueva visualmente al personaje.
+    // SmoothDamp necesita una variable privada para almacenar la velocidad interna de la cámara.
+    // No la modifiques desde fuera.
+    private Vector3 velocidadActual = Vector3.zero;
+
     private void LateUpdate()
     {
         if (objetivo == null) return;
 
+        // 1. Calculamos la posición exacta a la que queremos llegar
         Vector3 posicionDeseada = objetivo.position + Desplazamiento;
 
-        // Al estar en LateUpdate, DEBEMOS usar Time.deltaTime.
-        // Además, usamos Mathf.Clamp01 para asegurar que el cálculo matemático 
-        // nunca supere el 100% de la distancia en pantallas de bajos FPS, evitando tirones.
-        float suavizado = Mathf.Clamp01(CameraSpeed * Time.deltaTime);
-        Vector3 posicionSuavizada = Vector3.Lerp(transform.position, posicionDeseada, suavizado);
+        // 2. Usamos SmoothDamp para un movimiento matemáticamente perfecto e independiente de los FPS.
+        // Reemplaza por completo al Lerp y automáticamente maneja el deltaTime internamente.
+        Vector3 posicionSuavizada = Vector3.SmoothDamp(
+            transform.position,
+            posicionDeseada,
+            ref velocidadActual,
+            SmoothTime
+        );
 
+        // 3. Aplicamos la posición corregida
         transform.position = posicionSuavizada;
     }
 }
