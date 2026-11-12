@@ -301,7 +301,7 @@ GameObject:
   - component: {fileID: 690749426}
   - component: {fileID: 690749428}
   - component: {fileID: 690749427}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 1007836522}
   - component: {fileID: 1007836521}
   - component: {fileID: 1007836520}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -510,7 +510,7 @@ GameObject:
   - component: {fileID: 1132126178}
   - component: {fileID: 1132126177}
   - component: {fileID: 1132126176}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Button (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -882,7 +882,7 @@ GameObject:
   - component: {fileID: 1818190962}
   - component: {fileID: 1818190964}
   - component: {fileID: 1818190963}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -930,8 +930,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PLAY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 69daea7cf5a593247aa4006b5b91dac8, type: 2}
-  m_sharedMaterial: {fileID: 3014327149078064142, guid: 69daea7cf5a593247aa4006b5b91dac8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8b051db9000a1e4489e67a563d152a6f, type: 2}
+  m_sharedMaterial: {fileID: 299982318269519042, guid: 8b051db9000a1e4489e67a563d152a6f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -940,12 +940,12 @@ MonoBehaviour:
     rgba: 4279537871
   m_fontColor: {r: 0.8113208, g: 0.5649295, b: 0.08036668, a: 1}
   m_enableVertexGradient: 1
-  m_colorMode: 3
+  m_colorMode: 0
   m_fontColorGradient:
-    topLeft: {r: 0.20754719, g: 0.13803846, b: 0.13803846, a: 1}
-    topRight: {r: 0.9056604, g: 0.764685, b: 0.764685, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 1, g: 1, b: 0, a: 1}
+    topRight: {r: 1, g: 1, b: 0, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 0, a: 1}
+    bottomRight: {r: 1, g: 1, b: 0, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -1019,7 +1019,7 @@ GameObject:
   - component: {fileID: 1846373833}
   - component: {fileID: 1846373835}
   - component: {fileID: 1846373834}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1114,11 +1114,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1846373833}
+  - {fileID: 690749426}
   - {fileID: 1007836519}
   - {fileID: 1132126175}
   - {fileID: 1146598212}
-  - {fileID: 690749426}
-  - {fileID: 1846373833}
   m_Father: {fileID: 1410367929}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1187,7 +1187,7 @@ GameObject:
   - component: {fileID: 2092306830}
   - component: {fileID: 2092306832}
   - component: {fileID: 2092306831}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1235,8 +1235,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: EXIT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 69daea7cf5a593247aa4006b5b91dac8, type: 2}
-  m_sharedMaterial: {fileID: 3014327149078064142, guid: 69daea7cf5a593247aa4006b5b91dac8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8b051db9000a1e4489e67a563d152a6f, type: 2}
+  m_sharedMaterial: {fileID: 299982318269519042, guid: 8b051db9000a1e4489e67a563d152a6f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1245,12 +1245,12 @@ MonoBehaviour:
     rgba: 4279603407
   m_fontColor: {r: 0.8117648, g: 0.5647059, b: 0.08235294, a: 1}
   m_enableVertexGradient: 1
-  m_colorMode: 3
+  m_colorMode: 0
   m_fontColorGradient:
-    topLeft: {r: 0.1254902, g: 0.078431375, b: 0.050980397, a: 1}
-    topRight: {r: 0.90588236, g: 0.7647059, b: 0.7647059, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 1, g: 1, b: 0, a: 1}
+    topRight: {r: 1, g: 1, b: 0, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 0, a: 1}
+    bottomRight: {r: 1, g: 1, b: 0, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0

@@ -1,5 +1,5 @@
+using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.Audio;
 using System.Collections;
 using UnityEngine.InputSystem;
 
@@ -9,80 +9,63 @@ public class Eira : MonoBehaviour
     public Transform groundCheck;
     public LayerMask capaSuelo;
     public float radioSuelo = 0.15f;
-    // VIDA
-    private float maxVida = 100f;
-    private float Vida;
 
-    // MOVIMIENTO
     [Header("Movimiento")]
     public float WalkSpeed = 8f;
     public float JumpSpeed = 6f;
     public Rigidbody2D rb2D;
     public SpriteRenderer SpriteRen;
+    public float alturaInicioRaycast = 0.25f;
+    public float distanciaRaycastSuelo = 0.6f;
     private float inputX;
     private bool estaEnElSuelo = true;
     private Animator animator;
-    [Header("Movimiento en rampas")]
-    public float alturaInicioRaycast = 0.25f;
-    public float distanciaRaycastSuelo = 0.6f;
 
-    private bool recibiendoDano = false;
+    [Header("Vida y daño")]
+    [SerializeField] private float maxVida = 100f;
+    private float Vida;
+    [SerializeField] private Slider barraVida;
+    private bool recibiendoDano;
+    [Header("Invulnerabilidad")]
+    public float duracionInvulnerabilidad = 2f;
+    private bool invulnerable;
+    private float temporizadorInvulnerabilidad;
+    [Header("Efecto visual de daño")]
+    [SerializeField] private Color colorDanio = Color.red;
+    [SerializeField] private float duracionColorDanio = 0.2f;
+    private float temporizadorColorDanio;
+    private Color colorOriginal;
     [Header("Sistema de muerte")]
-    public bool estaMuerta = false;
+    public bool estaMuerta;
     public ParticleSystem efectoMuerte;
     public GameObject panelGameOver;
     public float tiempoAntesGameOver = 1.5f;
-    [Header("Sistema Game Over")]
     public GameOver menuGameOver;
-    [Header("Invulnerabilidad")]
-    public float duracionInvulnerabilidad = 2f;
-
-    private bool invulnerable = false;
-    private float temporizadorInvulnerabilidad = 0f;
-
-    [Header("Efecto de invulnerabilidad")]
-    [SerializeField] private SpriteRenderer spriteRenderer;
-    public float intervaloParpadeo = 0.5f;
-
-    private float temporizadorParpadeo = 0f;
-
-    // ATAQUE CON ARCO
-
     [Header("Ataque con arco")]
     [SerializeField] private float tiempoSinDisparar = 3f;
     [SerializeField] private float duracionAnimacionDisparo = 0.5f;
-    private bool arcoPreparado = false;
-    private bool arcoListoParaDisparar = false;
-    private bool disparando = false;
-    private bool flechaCreadaEsteDisparo = false;
-    private float temporizadorArco = 0f;
-    private float temporizadorDisparo = 0f;
-
+    [SerializeField] private GameObject prefabFlecha;
+    [SerializeField] private Transform controladorDisparo;
+    private bool arcoPreparado;
+    private bool arcoListoParaDisparar;
+    private bool disparando;
+    private bool flechaCreadaEsteDisparo;
+    private float temporizadorArco;
+    private float temporizadorDisparo;
     [Header("Sonidos")]
     public AudioSource audioSource;
-
     public AudioClip sonidoPasos;
     public AudioClip sonidoAtaque;
     public AudioClip sonidoSalto;
     public AudioClip sonidoDaño;
-
     [Header("Configuración de pasos")]
     public float intervaloPasos = 0.35f;
+    private float temporizadorPasos;
 
-    private float temporizadorPasos = 0f;
-
-    // DISPARO DE FLECHAS
-
-    [Header("Disparo de flechas")]
-    [SerializeField] private GameObject prefabFlecha;
-    [SerializeField] private Transform controladorDisparo;
-
-    // INICIALIZACIÓN
     private void Start()
     {
         if (audioSource == null)
             audioSource = GetComponent<AudioSource>();
-        Vida = maxVida;
 
         if (rb2D == null)
             rb2D = GetComponent<Rigidbody2D>();
@@ -90,78 +73,79 @@ public class Eira : MonoBehaviour
         if (SpriteRen == null)
             SpriteRen = GetComponent<SpriteRenderer>();
 
+        if (SpriteRen != null)
+            colorOriginal = SpriteRen.color;
+
         animator = GetComponent<Animator>();
+        Vida = maxVida;
+        if (barraVida != null)
+        {
+            barraVida.maxValue = maxVida;
+            barraVida.value = Vida;
+        }
 
-        // Inicializar parámetros del Animator.
-        animator.SetBool("Running", false);
-        animator.SetBool("EstaAtacando", false);
-        animator.SetBool("AttackIni", false);
-        animator.SetBool("AttackStart", false);
-        animator.SetBool("ReturnToIdle", false);
+        if (animator != null)
+        {
+            animator.SetBool("Running", false);
+            animator.SetBool("EstaAtacando", false);
+            animator.SetBool("AttackIni", false);
+            animator.SetBool("AttackStart", false);
+            animator.SetBool("ReturnToIdle", false);
+        }
     }
-
-    // UPDATE
     private void Update()
     {
         ComprobarSuelo();
-
         ActualizarAnimacionDano();
-        // Esto controla Muerte
-        if (estaMuerta)
-            return;
-        // Controlar duración de invulnerabilidad.
-        // CONTROLAR DURACIÓN DE INVULNERABILIDAD
-        if (invulnerable)
-        {
-            temporizadorInvulnerabilidad -= Time.deltaTime;
+        ActualizarColorDanio();
+        ActualizarInvulnerabilidad();
 
-            if (temporizadorInvulnerabilidad <= 0f)
-            {
-                invulnerable = false;
-
-                if (spriteRenderer != null)
-                {
-                    spriteRenderer.enabled = true;
-
-                    Color color = spriteRenderer.color;
-                    color.a = 1f;
-                    spriteRenderer.color = color;
-                }
-
-                Debug.Log("Eira ya puede recibir daño nuevamente.");
-            }
-        }
-        if (Keyboard.current == null)
+        if (estaMuerta || Keyboard.current == null)
             return;
         if (recibiendoDano)
         {
             inputX = 0f;
             return;
         }
-
         ActualizarAnimacionSalto();
-
-        // MOVIMIENTO HORIZONTAL
+        LeerMovimiento();
+        ActualizarSonidoPasos();
+        ActualizarAnimacionMovimiento();
+        ProcesarSalto();
+        ProcesarArco();
+    }
+    private void LeerMovimiento()
+    {
         inputX = 0f;
+
         if (Keyboard.current.rightArrowKey.isPressed)
         {
             inputX = 1f;
-
-            SpriteRen.flipX = false;
+            if (SpriteRen != null) SpriteRen.flipX = false;
         }
         else if (Keyboard.current.leftArrowKey.isPressed)
         {
             inputX = -1f;
-
-            SpriteRen.flipX = true;
+            if (SpriteRen != null) SpriteRen.flipX = true;
         }
-        if (Mathf.Abs(inputX) > 0.01f && estaEnElSuelo && !arcoPreparado && !disparando)
+
+        if (arcoPreparado || disparando)
+            inputX = 0f;
+    }
+    private void ActualizarSonidoPasos()
+    {
+        bool caminando = Mathf.Abs(inputX) > 0.01f
+                         && estaEnElSuelo
+                         && !arcoPreparado
+                         && !disparando;
+
+        if (caminando)
         {
             temporizadorPasos += Time.deltaTime;
 
             if (temporizadorPasos >= intervaloPasos)
             {
-                if (sonidoPasos != null && !audioSource.isPlaying)
+                if (audioSource != null && sonidoPasos != null && !audioSource.isPlaying)
                 {
                     audioSource.clip = sonidoPasos;
                     audioSource.loop = true;
@@ -174,87 +158,94 @@ public class Eira : MonoBehaviour
         else
         {
             temporizadorPasos = 0f;
-
-            // Detener los pasos inmediatamente.
-            if (audioSource.clip == sonidoPasos && audioSource.isPlaying)
-            {
-                audioSource.Stop();
-                audioSource.loop = false;
-                audioSource.clip = null;
-            }
+            DetenerSonidoPasos();
         }
-        // BLOQUEAR MOVIMIENTO DURANTE EL ARCO
-        if (arcoPreparado || disparando)
+    }
+    private void DetenerSonidoPasos()
+    {
+        if (audioSource != null && audioSource.clip == sonidoPasos)
         {
-            inputX = 0f;
+            audioSource.Stop();
+            audioSource.loop = false;
+            audioSource.clip = null;
         }
-        // ANIMACIÓN RUNNING
-        animator.SetBool("Running", inputX != 0f);
-
-        // SALTO
-        if (Keyboard.current.xKey.wasPressedThisFrame
-            && !Pause.BloquearInputFrame)
+    }
+    private void ActualizarAnimacionMovimiento()
+    {
+        if (animator != null)
+            animator.SetBool("Running", inputX != 0f);
+    }
+    private void ProcesarSalto()
+    {
+        if (Keyboard.current.xKey.wasPressedThisFrame && !Pause.BloquearInputFrame
+            && estaEnElSuelo && !arcoPreparado && !disparando)
         {
-            if (estaEnElSuelo && !arcoPreparado && !disparando)
-            {
-                Saltar();
-            }
+            Saltar();
         }
-        // CONTROL DEL ARCO
-        if (Keyboard.current.zKey.wasPressedThisFrame
-            && !Pause.BloquearInputFrame)
+    }
+    private void ProcesarArco()
+    {
+        if (Keyboard.current.zKey.wasPressedThisFrame && !Pause.BloquearInputFrame)
         {
-            // Primera pulsación: preparar arco.
             if (!arcoPreparado && !disparando)
             {
-                // Eira debe estar quieta para preparar el arco.
                 if (inputX == 0f)
-                {
                     PrepararArco();
-                }
             }
-            // Segunda pulsación: disparar flecha.
-            else if (arcoPreparado
-                     && arcoListoParaDisparar
-                     && !disparando)
+            else if (arcoPreparado && arcoListoParaDisparar && !disparando)
             {
                 DispararUnaFlecha();
             }
         }
-        // TEMPORIZADOR PARA GUARDAR EL ARCO
+
         if (arcoPreparado && !disparando)
         {
             temporizadorArco += Time.deltaTime;
-
             if (temporizadorArco >= tiempoSinDisparar)
-            {
                 GuardarArco();
-            }
         }
-        // DURACIÓN DE LA ANIMACIÓN DE DISPARO
+
         if (disparando)
         {
             temporizadorDisparo += Time.deltaTime;
-
             if (temporizadorDisparo >= duracionAnimacionDisparo)
-            {
                 FinalizarDisparo();
-            }
         }
     }
-    // FÍSICA Y MOVIMIENTO
+    private void ActualizarColorDanio()
+    {
+        if (temporizadorColorDanio <= 0f || SpriteRen == null)
+            return;
+
+        temporizadorColorDanio -= Time.deltaTime;
+
+        if (temporizadorColorDanio <= 0f)
+        {
+            SpriteRen.color = colorOriginal;
+            temporizadorColorDanio = 0f;
+        }
+    }
+    private void ActualizarInvulnerabilidad()
+    {
+        if (!invulnerable)
+            return;
+
+        temporizadorInvulnerabilidad -= Time.deltaTime;
+        if (temporizadorInvulnerabilidad <= 0f)
+        {
+            invulnerable = false;
+            temporizadorInvulnerabilidad = 0f;
+            Debug.Log("Eira ya puede recibir daño nuevamente.");
+        }
+    }
     private void ComprobarSuelo()
     {
         if (groundCheck == null)
             return;
 
         bool tocandoSuelo = Physics2D.OverlapCircle(
-            groundCheck.position,
-            radioSuelo,
-            capaSuelo
-        );
+            groundCheck.position, radioSuelo, capaSuelo);
 
-        // Evitar detectar el suelo durante el ascenso del salto.
         if (rb2D != null && rb2D.linearVelocity.y > 0.1f)
         {
             estaEnElSuelo = false;
@@ -270,68 +261,41 @@ public class Eira : MonoBehaviour
 
         if (recibiendoDano)
         {
-            rb2D.linearVelocity = new Vector2(
-                0f,
-                rb2D.linearVelocity.y
-            );
+            rb2D.linearVelocity = new Vector2(0f, rb2D.linearVelocity.y);
             return;
         }
 
-        float velocidadX = 0f;
+        float velocidadX = (!arcoPreparado && !disparando) ? inputX * WalkSpeed : 0f;
 
-        if (!arcoPreparado && !disparando)
-        {
-            velocidadX = inputX * WalkSpeed;
-        }
-
-        // Si Eira está quieta, detener solamente el movimiento horizontal.
         if (Mathf.Abs(velocidadX) < 0.01f)
         {
-            rb2D.linearVelocity = new Vector2(
-                0f,
-                rb2D.linearVelocity.y
-            );
+            rb2D.linearVelocity = new Vector2(0f, rb2D.linearVelocity.y);
             return;
         }
 
-        // Adaptar el movimiento a la pendiente únicamente en el suelo.
         if (estaEnElSuelo && groundCheck != null)
         {
-            Vector2 origenRaycast =
-                (Vector2)groundCheck.position +
-                Vector2.up * alturaInicioRaycast;
+            Vector2 origenRaycast = (Vector2)groundCheck.position
+                                    + Vector2.up * alturaInicioRaycast;
 
             RaycastHit2D impacto = Physics2D.Raycast(
-                origenRaycast,
-                Vector2.down,
-                distanciaRaycastSuelo,
-                capaSuelo
-            );
+                origenRaycast, Vector2.down, distanciaRaycastSuelo, capaSuelo);
 
             if (impacto.collider != null && impacto.normal.y > 0.2f)
             {
                 Vector2 direccionPendiente = new Vector2(
-                    impacto.normal.y,
-                    -impacto.normal.x
-                ).normalized;
+                    impacto.normal.y, -impacto.normal.x).normalized;
 
                 if (velocidadX < 0f)
                     direccionPendiente = -direccionPendiente;
 
-                rb2D.linearVelocity =
-                    direccionPendiente * Mathf.Abs(velocidadX);
-
+                rb2D.linearVelocity = direccionPendiente * Mathf.Abs(velocidadX);
                 return;
             }
         }
 
-        // Movimiento horizontal normal, tanto en el aire como en terreno plano.
-        rb2D.linearVelocity = new Vector2(
-            velocidadX,
-            rb2D.linearVelocity.y
-        );
+        rb2D.linearVelocity = new Vector2(velocidadX, rb2D.linearVelocity.y);
     }
-    // PREPARAR ARCO
     private void PrepararArco()
     {
         arcoPreparado = true;
@@ -340,152 +304,127 @@ public class Eira : MonoBehaviour
         temporizadorArco = 0f;
         temporizadorDisparo = 0f;
 
+        if (animator == null) return;
         animator.SetBool("Running", false);
         animator.SetBool("ReturnToIdle", false);
         animator.SetBool("AttackStart", false);
         animator.SetBool("AttackIni", true);
         animator.SetBool("EstaAtacando", true);
     }
-    // FINALIZAR PREPARACIÓN DEL ARCO
-    // ANIMATION EVENT: EiraAttackIntro
+    // Animation Event de EiraAttackIntro.
     public void TerminarPreparacionArco()
     {
         if (arcoPreparado && !disparando)
-        {
             arcoListoParaDisparar = true;
-        }
     }
-    // DISPARAR UNA FLECHA
+
     private void DispararUnaFlecha()
     {
         if (!arcoPreparado || !arcoListoParaDisparar || disparando)
             return;
+
         if (prefabFlecha == null || controladorDisparo == null)
         {
-            Debug.LogWarning(
-                "Asigna el prefab de la flecha y ControladorDisparo en Eira."
-            );
-
+            Debug.LogWarning("Asigna el prefab de la flecha y ControladorDisparo en Eira.");
             return;
         }
-        // Comenzar secuencia de disparo.
+
         disparando = true;
         arcoListoParaDisparar = false;
         flechaCreadaEsteDisparo = false;
         temporizadorDisparo = 0f;
         temporizadorArco = 0f;
 
-
-        // Cambiar parámetros del Animator.
-        animator.SetBool("ReturnToIdle", false);
-        animator.SetBool("AttackIni", false);
-        animator.SetBool("AttackStart", true);
-        animator.SetBool("EstaAtacando", true);
+        if (animator != null)
+        {
+            animator.SetBool("ReturnToIdle", false);
+            animator.SetBool("AttackIni", false);
+            animator.SetBool("AttackStart", true);
+            animator.SetBool("EstaAtacando", true);
+        }
     }
-    // LANZAR FLECHA ANIMATION EVENT: EiraAttackFinish
+    // Animation Event de EiraAttackFinish.
     public void LanzarFlecha()
     {
-        if (!disparando || flechaCreadaEsteDisparo)
+        if (!disparando || flechaCreadaEsteDisparo
+            || prefabFlecha == null || controladorDisparo == null)
             return;
 
-        if (prefabFlecha == null || controladorDisparo == null)
-            return;
-        if (sonidoAtaque != null)
+        if (audioSource != null && sonidoAtaque != null)
             audioSource.PlayOneShot(sonidoAtaque);
 
-        // Determinar dirección.
-        bool miraDerecha = !SpriteRen.flipX;
-
-        // Calcular posición de salida.
+        bool miraDerecha = SpriteRen == null || !SpriteRen.flipX;
         Vector3 posicionLocal = controladorDisparo.localPosition;
+        posicionLocal.x = Mathf.Abs(posicionLocal.x) * (miraDerecha ? 1f : -1f);
+        Vector3 posicionDisparo = transform.TransformPoint(posicionLocal);
 
-        posicionLocal.x = Mathf.Abs(posicionLocal.x)
-                          * (miraDerecha ? 1f : -1f);
-
-        Vector3 posicionDisparo =
-            transform.TransformPoint(posicionLocal);
-
-
-        // Crear flecha.
         GameObject nuevaFlecha = Instantiate(
-            prefabFlecha,
-            posicionDisparo,
-            Quaternion.identity
-        );
+            prefabFlecha, posicionDisparo, Quaternion.identity);
 
-        // Inicializar dirección del proyectil.
         Flecha flecha = nuevaFlecha.GetComponent<Flecha>();
-
         if (flecha != null)
-        {
             flecha.Inicializar(miraDerecha);
-        }
-        // Evitar crear más de una flecha por disparo.
+
         flechaCreadaEsteDisparo = true;
     }
-    // FINALIZAR DISPARO
     public void FinalizarDisparo()
     {
         disparando = false;
         temporizadorDisparo = 0f;
         temporizadorArco = 0f;
-
-        // Mantener arco preparado.
         arcoPreparado = true;
         arcoListoParaDisparar = true;
 
-        // Volver al estado de arco preparado.
-        animator.SetBool("AttackStart", false);
-        animator.SetBool("AttackIni", false);
-        animator.SetBool("EstaAtacando", true);
-        animator.SetBool("ReturnToIdle", false);
+        if (animator != null)
+        {
+            animator.SetBool("AttackStart", false);
+            animator.SetBool("AttackIni", false);
+            animator.SetBool("EstaAtacando", true);
+            animator.SetBool("ReturnToIdle", false);
+        }
     }
-    // GUARDAR ARCO
     private void GuardarArco()
     {
         arcoPreparado = false;
         arcoListoParaDisparar = false;
         disparando = false;
-
         temporizadorArco = 0f;
         temporizadorDisparo = 0f;
 
-        // Restablecer parámetros del Animator.
-        animator.SetBool("AttackIni", false);
-        animator.SetBool("AttackStart", false);
-        animator.SetBool("EstaAtacando", false);
-        animator.SetBool("ReturnToIdle", true);
+        if (animator != null)
+        {
+            animator.SetBool("AttackIni", false);
+            animator.SetBool("AttackStart", false);
+            animator.SetBool("EstaAtacando", false);
+            animator.SetBool("ReturnToIdle", true);
+        }
 
         Debug.Log("Eira terminó el ataque y puede volver a moverse.");
     }
-    // SALTO
     private void Saltar()
     {
-        if (!estaEnElSuelo)
+        if (!estaEnElSuelo || rb2D == null)
             return;
 
-        // Eliminar la velocidad vertical anterior.
-        rb2D.linearVelocity = new Vector2(
-            rb2D.linearVelocity.x,
-            0f
-        );
+        rb2D.linearVelocity = new Vector2(rb2D.linearVelocity.x, 0f);
+        rb2D.AddForce(Vector2.up * JumpSpeed, ForceMode2D.Impulse);
 
-        // Aplicar el impulso del salto.
-        rb2D.AddForce(
-            Vector2.up * JumpSpeed,
-            ForceMode2D.Impulse
-        );
-
-        if (sonidoSalto != null)
+        if (audioSource != null && sonidoSalto != null)
             audioSource.PlayOneShot(sonidoSalto);
 
         estaEnElSuelo = false;
 
-        animator.SetBool("EnElAire", true);
-        animator.SetBool("Cayendo", false);
+        if (animator != null)
+        {
+            animator.SetBool("EnElAire", true);
+            animator.SetBool("Cayendo", false);
+        }
     }
     private void ActualizarAnimacionSalto()
     {
+        if (animator == null || rb2D == null)
+            return;
+
         if (estaEnElSuelo)
         {
             animator.SetBool("EnElAire", false);
@@ -493,184 +432,133 @@ public class Eira : MonoBehaviour
             return;
         }
 
-        if (rb2D.linearVelocity.y < -0.1f)
-        {
-            animator.SetBool("Cayendo", true);
-        }
-        else
-        {
-            animator.SetBool("Cayendo", false);
-        }
+        animator.SetBool("Cayendo", rb2D.linearVelocity.y < -0.1f);
     }
-    // RECIBIR DAÑO
+
     public void RecibirDano(float cantidad)
     {
-        // Ignorar golpes durante la invulnerabilidad.
-        if (invulnerable)
+        if (invulnerable || estaMuerta)
             return;
 
-        // Descontar vida.
         Vida -= cantidad;
-        if (Vida <= 0)
+        Vida = Mathf.Clamp(Vida, 0f, maxVida);
+
+        if (barraVida != null)
+            barraVida.value = Vida;
+
+        if (Vida <= 0f)
         {
-            Vida = 0;
             Morir();
             return;
         }
 
         Debug.Log("Eira recibió daño. Vida: " + Vida);
 
-        // Activar invulnerabilidad.
         invulnerable = true;
         temporizadorInvulnerabilidad = duracionInvulnerabilidad;
 
-        temporizadorParpadeo = 0f;
-
-        temporizadorParpadeo = 0f;
-
-        if (spriteRenderer != null)
+        if (SpriteRen != null)
         {
-            spriteRenderer.enabled = true;
-
-            Color color = spriteRenderer.color;
-            color.a = 1f;
-            spriteRenderer.color = color;
+            SpriteRen.color = colorDanio;
+            temporizadorColorDanio = duracionColorDanio;
         }
-        // Activar bloqueo de controles.
-        recibiendoDano = true;
 
+        recibiendoDano = true;
         inputX = 0f;
 
-        rb2D.linearVelocity = new Vector2(0f, rb2D.linearVelocity.y);
+        if (rb2D != null)
+            rb2D.linearVelocity = new Vector2(0f, rb2D.linearVelocity.y);
 
-        // Detener sonido de pasos.
         if (audioSource != null)
         {
             audioSource.Stop();
             audioSource.loop = false;
             audioSource.clip = null;
+            if (sonidoDaño != null)
+                audioSource.PlayOneShot(sonidoDaño);
         }
 
-        // Reproducir sonido de daño.
-        if (audioSource != null && sonidoDaño != null)
-            audioSource.PlayOneShot(sonidoDaño);
-
-        // Cancelar acciones del arco.
         arcoPreparado = false;
         arcoListoParaDisparar = false;
         disparando = false;
-
         temporizadorArco = 0f;
         temporizadorDisparo = 0f;
 
-        // Restablecer parámetros del Animator.
-        animator.SetBool("EstaAtacando", false);
-        animator.SetBool("AttackIni", false);
-        animator.SetBool("AttackStart", false);
-        animator.SetBool("ReturnToIdle", false);
-        animator.SetBool("Running", false);
-
-        // Reproducir daño.
-        animator.SetTrigger("Daño");
+        if (animator != null)
+        {
+            animator.SetBool("EstaAtacando", false);
+            animator.SetBool("AttackIni", false);
+            animator.SetBool("AttackStart", false);
+            animator.SetBool("ReturnToIdle", false);
+            animator.SetBool("Running", false);
+            animator.SetTrigger("Daño");
+        }
     }
+
     public void FinalizarAnimacionDano()
     {
         recibiendoDano = false;
-
         inputX = 0f;
-
         Debug.Log("Eira terminó la animación de daño.");
     }
-    void ActualizarAnimacionDano()
+
+    private void ActualizarAnimacionDano()
     {
-        if (!recibiendoDano)
+        if (!recibiendoDano || animator == null)
             return;
 
         AnimatorStateInfo estado = animator.GetCurrentAnimatorStateInfo(0);
-
         if (estado.IsName("EiraHurt") && estado.normalizedTime >= 1f)
         {
             recibiendoDano = false;
             inputX = 0f;
-
             Debug.Log("Animación de daño finalizada.");
         }
     }
-    void ActualizarParpadeo()
-    {
-        if (!invulnerable || spriteRenderer == null)
-            return;
 
-        temporizadorParpadeo -= Time.deltaTime;
-
-        if (temporizadorParpadeo <= 0f)
-        {
-            Color color = spriteRenderer.color;
-
-            color.a = color.a > 0.5f ? 0.2f : 1f;
-
-            spriteRenderer.color = color;
-
-            temporizadorParpadeo = intervaloParpadeo;
-        }
-    }
     public void Morir()
     {
-        // Evitar que la muerte se ejecute varias veces.
         if (estaMuerta)
             return;
 
         estaMuerta = true;
-
-        // Detener movimiento.
         inputX = 0f;
-        rb2D.linearVelocity = Vector2.zero;
-        rb2D.simulated = false;
 
-        // Detener sonidos.
+        if (rb2D != null)
+        {
+            rb2D.linearVelocity = Vector2.zero;
+            rb2D.simulated = false;
+        }
+
         if (audioSource != null)
             audioSource.Stop();
 
-        // Generar efecto visual.
-        // GENERAR EFECTO DE MUERTE
         if (efectoMuerte != null)
         {
             ParticleSystem efecto = Instantiate(
-                efectoMuerte,
-                transform.position,
-                Quaternion.identity
-            );
-
+                efectoMuerte, transform.position, Quaternion.identity);
             efecto.Play();
         }
-        // Ocultar a Eira.
+
         if (SpriteRen != null)
             SpriteRen.enabled = false;
 
-        // Desactivar colisiones.
-        Collider2D[] colliders = GetComponentsInChildren<Collider2D>();
-
-        foreach (Collider2D col in colliders)
-        {
+        foreach (Collider2D col in GetComponentsInChildren<Collider2D>())
             col.enabled = false;
-        }
 
         StartCoroutine(MostrarGameOver());
     }
-        private IEnumerator MostrarGameOver()
-        {
-            yield return new WaitForSeconds(tiempoAntesGameOver);
 
-            if (menuGameOver != null)
-            {
-                menuGameOver.MostrarGameOver();
-            }
-        }
+    private IEnumerator MostrarGameOver()
+    {
+        yield return new WaitForSeconds(tiempoAntesGameOver);
 
+        if (menuGameOver != null)
+            menuGameOver.MostrarGameOver();
+        else
+            Debug.LogWarning("No asignaste el menú GameOver en Eira.");
+    }
 
-
-
-    // Muerte por caída al vacío.
     public void MorirPorCaida()
     {
         Morir();
